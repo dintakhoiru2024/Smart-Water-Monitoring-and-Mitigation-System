@@ -59,4 +59,4 @@ This project is an Arduino-based water management simulation designed to monitor
 * **Simulation Video**: [Simulation Video.mp4](./Simulation%20Video.mp4)
 
 ---
-*Developed by [Dinta Khoiru Sanata]((https://github.com/dintakhoiru2024))*
+*Developed by [Dinta Khoiru Sanata][(https://github.com/dintakhoiru2024)]*
