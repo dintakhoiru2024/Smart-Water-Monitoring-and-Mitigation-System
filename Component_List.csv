@@ -4,7 +4,7 @@ No,Name,Quantity,Component
 3,SERVO1,1,Positional Micro Servo
 4,S1,1,Pushbutton (System Switch)
 5,M1,1,Hobby Gearmotor
-6,Rpot1,1,250 k? Potentiometer
+6,Rpot1,1,250 k Ohm Potentiometer
 7,Q1,1,NPN Transistor (BJT)
 8,D1,1,LED Green
 9,BAT1,1,9V Battery
