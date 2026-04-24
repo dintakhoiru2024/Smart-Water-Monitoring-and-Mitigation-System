@@ -4,7 +4,7 @@ This project is an Arduino-based water management simulation designed to monitor
 
 ---
 
-## 🚀 Key Features:
+## Key Features:
 1. System Power Control: On/Off toggle functionality via a physical push button with debounce protection.
 2. Real-Time Monitoring: 16x2 I2C LCD displays live water level percentage and system status.
 3. Adaptive Pumping: DC Motor speed is automatically regulated using PWM mapping based on the current water level.
@@ -14,7 +14,7 @@ This project is an Arduino-based water management simulation designed to monitor
 
 ---
 
-## 🛠️ Hardware Used:
+## Hardware Used:
 1. Arduino Uno R3 / compatible board
 2. LCD 16x2 with I2C Module (0x27)
 3. DC Hobby Gearmotor (Water Pump Simulation)
@@ -28,20 +28,20 @@ This project is an Arduino-based water management simulation designed to monitor
 
 ---
 
-## 📋 Pin Configuration 
-No,Component / Function,Arduino Pin,Type,Description
-1,ON/OFF Button,D2,Digital Input,Main system power toggle (with debounce).
-2,Red LED (Alarm),D13,Digital Output,Visual alert indicator for critical water levels (>= 80%).
-3,Potentiometer,A0,Analog Input,Simulates water level sensor (Input range: 0-1023).
-4,NPN Transistor (Pump),D6 (PWM),PWM Output,Controls motor speed via Base Resistor using PWM signals.
-5,Micro Servo,D9,PWM Output,"Actuates the emergency floodgate (0° Closed, 90° Open)."
-6,LCD I2C SDA,A4,I2C Data,Serial Data line for LCD communication.
-7,LCD I2C SCL,A5,I2C Clock,Serial Clock line for LCD communication.
-8,LCD Display,0x27,I2C Module,16x2 character display for monitoring and status.
-
+## Pin Configuration 
+| No | Component / Function | Arduino Pin | Type | Description |
+| :-- | :--- | :--- | :--- | :--- |
+| 1 | ON/OFF Button | D2 | Digital Input | Main system power toggle (with debounce). |
+| 2 | Red LED (Alarm) | D13 | Digital Output | Visual alert indicator for critical water levels (>= 80%). |
+| 3 | Potentiometer | A0 | Analog Input | Simulates water level sensor (Input range: 0-1023). |
+| 4 | NPN Transistor (Pump) | D6 (PWM) | PWM Output | Controls motor speed via Base Resistor using PWM signals. |
+| 5 | Micro Servo | D9 | PWM Output | Actuates the emergency floodgate (0° Closed, 90° Open). |
+| 6 | LCD I2C SDA | A4 | I2C Data | Serial Data line for LCD communication. |
+| 7 | LCD I2C SCL | A5 | I2C Clock | Serial Clock line for LCD communication. |
+| 8 | LCD Display | 0x27 | I2C Module | 16x2 character display for monitoring and status. |
 ---
 
-## 🏗️ Operational Workflow:
+## Operational Workflow:
 1. The Arduino system initializes the LCD, Servo, and Pin configurations upon power-up.
 2. The system starts in Standby Mode until the ON/OFF button (D2) is pressed.
 3. The Potentiometer (A0) is used to simulate the water level, mapped from 0% to 100%.
@@ -52,7 +52,7 @@ No,Component / Function,Arduino Pin,Type,Description
 
 ---
 
-## 📁 Dokumentasi File
+## Dokumentasi File
 a. Source Code: Code.ino
 b. Component List: Component_List.csv
 c. Circuit Schematic: 3D Schematics.png
