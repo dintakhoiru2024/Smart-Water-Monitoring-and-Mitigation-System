@@ -59,5 +59,4 @@ c. Circuit Schematic: 3D Schematics.png
 d. Simulation Video: Watch Here
 
 ---
-## 👨‍💻 Developed By
-**Dinta Khoiru Sanata**
+Developed By Dinta Khoiru Sanata
