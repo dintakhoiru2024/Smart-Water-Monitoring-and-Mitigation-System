@@ -52,11 +52,11 @@ This project is an Arduino-based water management simulation designed to monitor
 
 ---
 
-## Dokumentasi File
-a. Source Code: Code.ino
-b. Component List: Component_List.csv
-c. Circuit Schematic: 3D Schematics.png
-d. Simulation Video: Watch Here
+## Project Documentation
+* **Source Code**: [Code.ino](./Code.ino)
+* **Component List**: [Component_List.csv](./Component_List.csv)
+* **Circuit Schematic**: [3D Schematics.png](./3D%20Schematics.png)
+* **Simulation Video**: [Video Simulation.webm](./Video%20Simulation.webm)
 
 ---
 Developed By Dinta Khoiru Sanata
